@@ -23,4 +23,4 @@ DROP CONSTRAINT fk_order_details_products;
 DELETE FROM products
 WHERE discontinued = 1;
 
-ALTER TABLE order_details ADD CONSTRAINT fk_order_details_products FOREIGN KEY(product_id) REFERENCES products(product_id;)
+ALTER TABLE order_details ADD CONSTRAINT fk_order_details_products FOREIGN KEY(product_id) REFERENCES products(product_id)
